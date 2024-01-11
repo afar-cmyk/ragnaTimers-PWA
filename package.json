@@ -2,7 +2,7 @@
   "name": "ragnatimers",
   "description": "ragnaTimers is a simple, yet powerful MVP Timer.",
   "private": true,
-  "version": "v0.1.8-alpha",
+  "version": "v0.1.9-alpha",
   "type": "module",
   "scripts": {
     "dev": "pnpm vite",
@@ -13,6 +13,7 @@
     "name": "Andrés F. Alvarez",
     "email": "andresfelipe.alvarez03@gmail.com"
   },
+  "license": "CC-BY-NC-SA-4.0",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",

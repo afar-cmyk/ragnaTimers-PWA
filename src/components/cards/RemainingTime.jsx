@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'preact/hooks'
 import RespawnTimer from './timers/RespawnTimer.jsx'
 import VariableTimer from './timers/VariableTimer.jsx'
 

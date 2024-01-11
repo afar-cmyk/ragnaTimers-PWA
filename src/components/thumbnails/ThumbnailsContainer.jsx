@@ -1,4 +1,3 @@
-import React from 'react'
 import Thumbnails from './Thumbnails.jsx'
 
 export default function ThumbnailsContainer(props) {

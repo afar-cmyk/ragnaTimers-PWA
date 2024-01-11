@@ -211,6 +211,22 @@ let DataSource = {
       pay_fild11: { respawn: [120, 130] }
     }
   },
+  ygnizem: {
+    fullName: 'Egnigem Cenia',
+    settings: {
+      thumbnail: {
+        position: '0px -12px',
+        size: '115%'
+      },
+      card: {
+        position: '12px -32px',
+        size: '100%'
+      }
+    },
+    maps: {
+      lhz_dun02: { respawn: [120, 130] }
+    }
+  },
   evilSnake: {
     fullName: 'Evil Snake Lord',
     settings: {
@@ -772,22 +788,6 @@ let DataSource = {
     },
     maps: {
       moc_fild22: { respawn: [720, 780] }
-    }
-  },
-  ygnizem: {
-    fullName: 'Egnigem Cenia',
-    settings: {
-      thumbnail: {
-        position: '0px -12px',
-        size: '115%'
-      },
-      card: {
-        position: '12px -32px',
-        size: '100%'
-      }
-    },
-    maps: {
-      lhz_dun02: { respawn: [120, 130] }
     }
   },
 

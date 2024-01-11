@@ -15,3 +15,8 @@ export function App() {
     </>
   )
 }
+
+// Poner un Readme
+// Poner algo que redireccione al repositorio principal
+// Poner un footer o una seccion de creditos que no estorbe a la app
+// Versionar los cambios

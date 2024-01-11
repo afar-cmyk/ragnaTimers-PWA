@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import { useEffect, useState, useCallback } from 'preact/hooks'
 import { TimerRenderer, useTimer } from 'react-use-precision-timer'
 import { removeTiming } from '../../../database/dbService.js'
 import { getTime, formatTime } from '../../cards/RemainingTime.jsx'
 
 const VariableTimer = ({ variableTime, id, setCardState }) => {
   const [currentColor, setCurrentColor] = useState('#c56d82')
-  const callback = React.useCallback(() => {}, [])
+  const callback = useCallback(() => {}, [])
   const timer = useTimer({ delay: 10, runOnce: true }, callback)
 
   useEffect(() => {

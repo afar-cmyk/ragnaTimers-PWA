@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'preact/hooks'
 import { removeTiming, deleteData } from '../../database/dbService.js'
 import { IconContext } from 'react-icons'
 import { TbTrashFilled, TbCheck } from 'react-icons/tb'

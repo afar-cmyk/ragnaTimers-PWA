@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react'
+import { useEffect, useCallback } from 'preact/hooks'
 import { TimerRenderer, useTimer } from 'react-use-precision-timer'
 import { getTime, formatTime } from '../../cards/RemainingTime.jsx'
 
 const RespawnTimer = ({ respawnTime, renderCallback }) => {
-  const callback = React.useCallback(() => renderCallback(), [])
+  const callback = useCallback(() => renderCallback(), [])
   const timer = useTimer({ delay: 10, runOnce: true }, callback)
 
   useEffect(() => {

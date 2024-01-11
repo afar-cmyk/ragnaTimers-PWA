@@ -1,4 +1,3 @@
-import React from 'react'
 import DataSource from '../../database/DataSource.js'
 
 const CardBackground = ({ mvpName, cardState }) => {

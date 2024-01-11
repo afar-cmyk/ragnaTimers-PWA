@@ -1,4 +1,3 @@
-import React from 'react'
 import { addMinutes, format } from 'date-fns'
 
 export const CardFooter = ({ selectedDate, respawn, variable }) => {

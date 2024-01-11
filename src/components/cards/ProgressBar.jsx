@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import { useEffect, useState } from 'preact/hooks'
 import { differenceInMilliseconds, minutesToMilliseconds } from 'date-fns'
 
 export const ProgressBar = (props) => {
   const { remainingSeconds, selectedRespawn, mvpRespawn, cardState } = props
-  
+
   const [currentSeconds, setCurrentSeconds] = useState(remainingSeconds)
   const [percent, setPercent] = useState(remainingSeconds)
 
