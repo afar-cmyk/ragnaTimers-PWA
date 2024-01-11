@@ -9,6 +9,7 @@
 ## Description
 
 The idea behind this project is to offer compatibility for deprecated operating systems in ElectronJS, like Windows 7, 8, and 8.1. While it may not include every feature found in <a href="https://github.com/afar-cmyk/ragnaTimers">ragnaTimers</a>, it encapsulates the core functionalities within a Progressive Web App (PWA).
+
 </br>
 
 ## License
